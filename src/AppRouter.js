@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 
 //importar react router
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Episodes, Location, Characters, Home } from "./pages";
 
 // importar archivos css y otros JSX
@@ -15,7 +15,7 @@ import './App.css';
 // componente funcional para el enrutamiento
 export const AppRouter = ()=> {
   return(
-      <BrowserRouter > 
+      <HashRouter > 
         <div className="App">
           <Navbar />
         </div>
@@ -31,7 +31,7 @@ export const AppRouter = ()=> {
             <Route path="/location/:id" element={<CardDetails />} />
         </Routes>
 
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
