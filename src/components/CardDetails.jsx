@@ -26,11 +26,13 @@ export const CardDetails = () => {
             
             <div className="row d-flex justify-content-evenly align-items-center ">
                 
-                <img className="col-5 img-fluid m-4" src={ image } alt={ name } />
+                <img className="d-none d-sm-block col-5 img-fluid m-4" src={ image } alt={ name } />
           
-                <div className="col-5">
+                <div className="col-10 col-sm-5">
                     <h1 className="text-primary m-2">{ name }</h1>
-
+                    
+                    <img className="d-sm-none col-12 img-fluid" src={ image } alt={ name } />
+                    
                     { status === "Dead" && <div className="badge bg-danger fs-5 mt-3 mb-3">{ status }</div> }
                     { status === "Alive" && <div className=" badge bg-success fs-5 mt-3 mb-3">{ status }</div>}
                     { status === "unknown" &&  <div className="badge bg-secondary fs-5 mt-3 mb-3">{ status }</div>}

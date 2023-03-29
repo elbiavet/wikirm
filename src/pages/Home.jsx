@@ -10,8 +10,11 @@ export const Home = () =>{
       <div className="container-fluid">
 
         <div className="row d-flex justify-content-center align-items-center mt-4">
-            <div className="d-none d-sm-inline col-sm-6 col-lg-6 col-xl-4">
+            <div className="d-none d-sm-inline col-12 col-sm-6 col-lg-6 col-xl-4">
                 <img src={ rm2 } alt="Portada Rick & Morty" className="" width={430}/>
+            </div>
+            <div className="col-10 d-sm-none">
+                <img src={ rm2 } alt="Portada Rick & Morty" className="" width={250}/>
             </div>
 
             <div className="col-lg-5">

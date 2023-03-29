@@ -20,7 +20,7 @@ export const Card = ({ page, results =[] }) => {
                         <Link
                             to={`${ page }${ id }`}
                             key={ id }
-                            className="col-lg-4 col-md-6 col-sm-6 col-12 mb-4 position-relative text-dark text-decoration-none"
+                            className="col-6 col-lg-4 mb-4 position-relative text-dark text-decoration-none"
                             >
                             <div key={ id }>
                                 <div className={`${ styles.card } d-flex flex-column justify-content-center`}>
