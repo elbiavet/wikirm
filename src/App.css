@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 50px;
+    font-size: 3em;
+}
+
+.active {
+    color: #0b5ed7 !important;
+    font-weight: bold;
+  }
+
+.iconoBoton{
+    box-shadow: 1px 1px 5px grey;
+}  
+
+.iconoBoton :hover{
+    color: #1ca91a;
+}
