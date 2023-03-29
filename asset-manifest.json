@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/wikirm/static/css/main.11f1b5ae.css",
+    "main.js": "/wikirm/static/js/main.db4da806.js",
+    "static/media/rm2.png": "/wikirm/static/media/rm2.b191fa9b87cb3175ed40.png",
+    "static/media/world.svg": "/wikirm/static/media/world.1ea69e346ce286e1c60808ecbc853e8f.svg",
+    "static/media/morty2.svg": "/wikirm/static/media/morty2.348375154bced3cbea26884c62a9f615.svg",
+    "static/media/tv.svg": "/wikirm/static/media/tv.0cefd8609a57ef79277b370fde9fed37.svg",
+    "index.html": "/wikirm/index.html",
+    "main.11f1b5ae.css.map": "/wikirm/static/css/main.11f1b5ae.css.map",
+    "main.db4da806.js.map": "/wikirm/static/js/main.db4da806.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11f1b5ae.css",
+    "static/js/main.db4da806.js"
+  ]
+}
